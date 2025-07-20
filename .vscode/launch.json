@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:line-bot-swift-vapor}/line-bot",
+            "name": "Debug LineBot (line-bot)",
+            "program": "${workspaceFolder:line-bot-swift-vapor}/line-bot/.build/debug/LineBot",
+            "preLaunchTask": "swift: Build Debug LineBot (line-bot)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:line-bot-swift-vapor}/line-bot",
+            "name": "Release LineBot (line-bot)",
+            "program": "${workspaceFolder:line-bot-swift-vapor}/line-bot/.build/release/LineBot",
+            "preLaunchTask": "swift: Build Release LineBot (line-bot)"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+---
+alwaysApply: false
+---
+
+#### Plase follow Instructions when developing on Swift Vapor
+- run target by command 'swift run' , if able to run in normal condition take break for few secoud then kill the process
+- please make sure of well know on libary by calling update informaion from Contex7 MCP service
