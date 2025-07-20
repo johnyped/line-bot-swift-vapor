@@ -17,6 +17,60 @@
             "name": "Release LineBot (line-bot)",
             "program": "${workspaceFolder:line-bot-swift-vapor}/line-bot/.build/release/LineBot",
             "preLaunchTask": "swift: Build Release LineBot (line-bot)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:line-bot-swift-vapor}/init",
+            "name": "Debug init (init)",
+            "program": "${workspaceFolder:line-bot-swift-vapor}/init/.build/debug/init",
+            "preLaunchTask": "swift: Build Debug init (init)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:line-bot-swift-vapor}/init",
+            "name": "Release init (init)",
+            "program": "${workspaceFolder:line-bot-swift-vapor}/init/.build/release/init",
+            "preLaunchTask": "swift: Build Release init (init)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:line-bot-swift-vapor}",
+            "name": "Debug init",
+            "program": "${workspaceFolder:line-bot-swift-vapor}/.build/debug/init",
+            "preLaunchTask": "swift: Build Debug init"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:line-bot-swift-vapor}",
+            "name": "Release init",
+            "program": "${workspaceFolder:line-bot-swift-vapor}/.build/release/init",
+            "preLaunchTask": "swift: Build Release init"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:line-bot-swift-vapor}",
+            "name": "Debug LineBotSwiftVapor",
+            "program": "${workspaceFolder:line-bot-swift-vapor}/.build/debug/LineBotSwiftVapor",
+            "preLaunchTask": "swift: Build Debug LineBotSwiftVapor"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:line-bot-swift-vapor}",
+            "name": "Release LineBotSwiftVapor",
+            "program": "${workspaceFolder:line-bot-swift-vapor}/.build/release/LineBotSwiftVapor",
+            "preLaunchTask": "swift: Build Release LineBotSwiftVapor"
         }
     ]
 }
